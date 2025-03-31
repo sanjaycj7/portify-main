@@ -1493,7 +1493,7 @@ section,
 }
 
 .btn.btn2{
-  display: inline-block;
+  display: block;
   /* margin-left: 25px; */
   background: #05cdf0;
 }
