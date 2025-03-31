@@ -1110,6 +1110,18 @@ section,
   font-size: 14px;
   margin-bottom: 0;
 }
+.services .service-item a{
+  margin-top: 20px;
+    color: #c1d414;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
 
 .services .service-item:hover {
   background: var(--accent-color);
