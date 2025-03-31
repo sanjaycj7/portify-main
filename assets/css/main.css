@@ -193,12 +193,16 @@ h6 {
   }
   .navmenu ul li a::after{
     content: '';
-    width: 100%;
+    width: 0;
     height: 3px;
     background: #e5ff00;
     position: absolute;
     left: 0;
     bottom: -6px;
+    transition: 0.5s;
+  }
+  .navmenu ul li a:hover::after{
+    width: 100%;
   }
 /* --------------- */
   .navmenu li {
@@ -216,7 +220,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var();
+    color: var(--nav-color);
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
