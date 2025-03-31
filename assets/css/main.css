@@ -263,7 +263,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: var();
   }
 
 /* Mobile Navigation */
