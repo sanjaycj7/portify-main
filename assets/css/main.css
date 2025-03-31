@@ -1475,3 +1475,31 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #05cdf0;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #05cdf0;
+}
+
+.btn.btn2{
+  display: inline-block;
+  /* margin-left: 25px; */
+  background: #05cdf0;
+}
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
