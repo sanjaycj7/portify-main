@@ -705,6 +705,7 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
+  font-style: italic;
 }
 
 .hero p {
@@ -777,6 +778,9 @@ section,
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
+}
+.col-lg-8 p{
+  font-style: italic;
 }
 
 /*--------------------------------------------------------------
