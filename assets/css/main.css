@@ -534,7 +534,11 @@ h6 {
     background-image: url(assets/img/home3.jpg);
   }
 }
-
+@media only screen and(max-width: 600px){
+  #hero{
+    background-image: url(assets/img/home3.jpg);
+  }
+}
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
