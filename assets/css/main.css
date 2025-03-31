@@ -531,12 +531,6 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
-    background-image: url(assets/img/home3.jpg);
-  }
-}
-@media only screen and(max-width: 600px){
-  #hero{
-    background-image: url(assets/img/home3.jpg);
   }
 }
 /*--------------------------------------------------------------
