@@ -270,6 +270,7 @@ h6 {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
+    background-image: url(assests/img/home3.jpg);
     color: var(--nav-color);
     font-size: 28px;
     line-height: 0;
