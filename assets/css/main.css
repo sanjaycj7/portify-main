@@ -769,6 +769,7 @@ section,
   margin-bottom: 30px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .about .content ul strong {
