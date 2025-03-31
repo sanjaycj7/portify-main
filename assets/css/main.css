@@ -784,9 +784,7 @@ section,
 }
 .col-lg-4 img{
   border-radius: 20px;
-}
-.col-lg-8 .content .col-lg-6{
-  text-align: center;
+  width: 75%;
 }
 /*--------------------------------------------------------------
 # Stats Section
